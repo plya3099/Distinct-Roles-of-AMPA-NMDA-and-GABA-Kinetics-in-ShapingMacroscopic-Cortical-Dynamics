@@ -89,7 +89,7 @@ The dimensionless mean-field equations are given as Eq. (1)–(7) in the manuscr
 4. `Compute → Forward`
 
 ### One-parameter continuation of equilibria
-1. For a robust starting steady state: set τ_NMDA > 516 ms, integrate forward (Interval > 500), then take the Last point  
+1. For a robust starting steady state: set τ_NMDA > 30(600 ms), integrate forward (Interval > 500), then take the Last point  
 2. Switch to `Type → Equilibrium`  
 3. Choose continuation parameter (e.g., `tau_nmda`)  
 4. Set y-axis to `re`  
