@@ -4,9 +4,6 @@
 This repository contains the complete code and analysis tools for the paper  
 
 **Distinct Roles of AMPA, NMDA, and GABA Kinetics in Shaping Macroscopic Cortical Dynamics**  
-Hongsheng Deng¹, Xinkun Zhang¹, Hongjie Bi², Xiyun Zhang¹✉  
-¹Department of Physics, Jinan University, Guangzhou, Guangdong 510632, China  
-²School of Chemical Biology and Biotechnology, Peking University Shenzhen Graduate School, Shenzhen, Guangdong 518055, China  
 
 The repository includes:  
 - A C++ spiking network simulator with separate AMPA, NMDA, and GABA synaptic kinetics  
