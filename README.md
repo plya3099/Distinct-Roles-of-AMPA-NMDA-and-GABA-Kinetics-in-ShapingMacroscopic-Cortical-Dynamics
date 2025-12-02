@@ -125,6 +125,6 @@ f_Hz = abs(imag_part) / (2*pi) * 50;   % Hz
 Spiking network simulations accurately reproduce the mean-field predictions (Fig. 1). All figures in the paper (phase diagrams, bifurcation diagrams, frequency analyses, and power spectra) were generated using the procedures described above.
 
 For questions or additional scripts, please open an issue or contact the corresponding author:  
-**HongSheng deng** (derandeng@stu.jnu.edu.cn)
+**HongSheng Deng** (derandeng@stu.jnu.edu.cn)
 
 
