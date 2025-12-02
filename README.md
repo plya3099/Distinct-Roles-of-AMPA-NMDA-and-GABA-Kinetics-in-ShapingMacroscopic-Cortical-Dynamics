@@ -104,6 +104,8 @@ The dimensionless mean-field equations are given as Eq. (1)–(7) in the manuscr
 ### Extracting oscillation frequencies
 
 #### Limit-cycle frequency
+-While continuing a limit cycle, set Ordinate → Period in the 2D plot.
+-After computation, extract the curve in Matlab:
 ```matlab
 h = findobj(gca,'Type','line');
 x = get(h,'XData');     % parameter value
@@ -112,6 +114,7 @@ f_Hz = 50 ./ T;         % frequency in Hz
 ```
 
 #### Linear frequency near fixed points
+-During equilibrium continuation, set Ordinate → Eigenvalues, tick “im”.
 ```matlab
 h = findobj(gca,'Type','line');
 x = get(h,'XData');
