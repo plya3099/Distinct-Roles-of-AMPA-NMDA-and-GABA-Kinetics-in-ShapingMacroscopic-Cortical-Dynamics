@@ -119,7 +119,7 @@ f_Hz = 50 ./ T;         % frequency in Hz
 h = findobj(gca,'Type','line');
 x = get(h,'XData');
 imag_part = get(h,'YData');
-f_Hz = imag_part / (2*pi) * 50;   % Hz
+f_Hz = abs(imag_part) / (2*pi) * 50;   % Hz
 ```
 
 ---
